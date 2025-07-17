@@ -1,13 +1,6 @@
-/**
-* Problem: Create a functions that shows sum of two numbers
-*/
+def add_numbers(a, b):
+    return a + b
 
-
-const addNumbers = (a, b) => {
- return (a + b);
-};
-
-
-const a =10;
-const b = 5;
-console.log(addNumbers(a, b));
+a = 10
+b = 45
+print(add_numbers(a, b))
